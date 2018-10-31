@@ -8,8 +8,8 @@
     "react-admin": "^2.3.1",
     "rxjs": "^6.3.2"
   },
-  "homepage": "https://github.com/benwinding/react-admin-firebase",
-  "email": "hello@benwinding.com",
+  "homepage": "https://github.com/jondsgntn/react-admin-firebase",
+  "email": "jonathan@designation.us",
   "main": "dist",
   "scripts": {
     "deploy": "yarn build && npm publish",
