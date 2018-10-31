@@ -114,6 +114,7 @@ class FirebaseClient {
     const id = params.id;
     const r = await this.tryGetResource(resourceName);
     r.collection.add(params.data);
+    console.log(params);
     return {
       data: {
         ...params.data,

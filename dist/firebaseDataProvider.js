@@ -155,6 +155,7 @@ var FirebaseClient = /** @class */ (function () {
                     case 1:
                         r = _a.sent();
                         r.collection.add(params.data);
+                        console.log(params);
                         return [2 /*return*/, {
                                 data: __assign({}, params.data, { id: id })
                             }];

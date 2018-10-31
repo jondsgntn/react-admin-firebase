@@ -17,7 +17,7 @@ interface IParamsGetOne {
 }
 
 interface IParamsCreate {
-  data: { id: string };
+  data: {};
   id: string;
 }
 
